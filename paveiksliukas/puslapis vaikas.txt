@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vaiko puslapis</title>
+</head>
+<body>
+
+<h1>ČIA YRA MANO VAIKO PUSLAPIS</h1>
+<p>o va čia mano vaikas.</p>
+<img src= "paveiksliukas\monstras.jpg" width="330">
+
+
+</body>
+</html>

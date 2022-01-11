@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Emilijos meškėnas</title>
+</head>
+<body style="background-color:MediumSeaGreen;">
+
+<style>
+h1 {
+  color: black;
+  font-family: times new roman;
+  font-size: 250%;
+}
+p {
+  color: purple;
+  font-family: times new roman;
+  font-size: 160%;
+}
+</style>
+</head>
+<body>
+
+
+
+
+<h1>Sveiki atvykę į nuostabujį Emilijos puslapį </h1>
+<h1 id="pūkuotukas" onclick="if (this.style.color != 'red') this.style.color='red'; else this.style.color='blue';"> Emilija myli Taylor Swift ir Lana Del Rey </h1>
+<p>Šiandien aš jums papasakosiu apie meškėnus:)</p>
+<p>Tikiuosi, kad jums bus laaaabai įdomu (nu nes bus)!</p>
+
+<img src="raccoon2.webp"  alt="racoon" width="300">
+<img src="meskenas.jpg" alt="funny raccoon" width="500">
+<p>Pasižiūrėkime šitą super duper filmuką apie meškėnus.</p>
+
+<a href= "paveiksliukas/puslapis%20vaikas.html"><img src= "paveiksliukas\lolinu.jpg" width="330"></a>
+
+
+<h1 style="color:orange;">LABAS RYTAS</h1>
+
+<p style="color:blue;">Man 14 ir aš noriu namo.</p>
+
+
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1lViKrWgTYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<audio controls autoplay muted>
+ 
+  <source src="igaga.mp3" type="audio/mpeg">
+
+</audio>
+
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
+
+
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+// Create gradient
+var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
+grd.addColorStop(0, "blue");
+grd.addColorStop(1, "yellow");
+
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(0, 0, 200, 100);
+</script>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(0, 0);
+ctx.lineTo(200, 100);
+ctx.stroke();
+</script>
+
+<h1 style="background-color:Violet;">Labai labai dėkoju už dėmesį:)</h1>
+<p style="font-family:courier;">Bet jei jums vis dar įdomu, paskaičiuokime! </p>
+
+<input id="a"   type="number"  value="0" oninput="sudek();">    +    <input id="b"   type="number"  value="0" oninput="sudek();">    =    <h1 id="ats"></h1>
+
+<script>
+var a = document.getElementById("a");
+var b = document.getElementById("b");
+var ats = document.getElementById("ats");
+function sudek() {
+ats.innerHTML = parseFloat(a.value) + parseFloat(b.value);
+}
+
+</script>
+
+
+
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Mygtukas kurio spausti nereikia.</button>
+
+<p id="demo"></p>
+
+ 
+
+</body>
+</html>
+
+
